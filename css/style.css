@@ -68,7 +68,7 @@ label{
     font-family:"fashion-medium";
     padding: 5px 5px 5px 0px;
 }
-input , select{
+input , select,option{
     width: 200px;
     font-family:"fashion-medium";
     height: 40px;
@@ -121,8 +121,26 @@ img{
 @media only screen and (max-width: 600px) {
     .container {
         max-width: 100%;
-        margin: 20px;
+        margin: 25px;
         box-shadow: none;
+    }
+    .daz-image{
+    display: none;
+    }
+    .daz{
+        padding: 0;
+    }
+    .carousel-inner{
+      height: 100vh;
+    }
+    form{
+        width: 80%;
+        padding-left: 0px;
+        align-items: center;
+    }
+    .name-section ,.Dob-uid,.state-and-other-detailes,.contact-no-info{
+        justify-content: center;
+        gap: 20px;
     }
 }
 
