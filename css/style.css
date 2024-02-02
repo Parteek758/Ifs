@@ -237,7 +237,7 @@ img{
   --b: 3px;   /* border thickness */
   --s: .45em; /* size of the corner */
   --color: #373B44;
-  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  padding: calc(.5em + var(--s)) calc(2.5em + var(--s));
   color: var(--color);
   --_p: var(--s);
   background:
