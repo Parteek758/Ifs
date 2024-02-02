@@ -115,7 +115,15 @@ img{
     border-radius: 20px;
 }
 .daz-image{
-    width: 28%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 420px ;
+    height:626px ;
+}
+.daz-image img{
+    width: 100%;
+    height: 100%;
 }
 /* Responsive Styles */
 @media only screen and (max-width: 600px) {
@@ -143,7 +151,21 @@ img{
         gap: 20px;
     }
 }
-
+@media only screen and (max-width: 1036px){
+    .daz{
+        flex-direction: column;
+    }
+    .daz-image{
+        width: 500px ;
+        height:626px ; 
+    }
+    form{
+        width: 60%;
+    }
+    .name-section, .Dob-uid, .state-and-other-detailes, .contact-no-info{
+      justify-content: center;
+    }
+}
 
 /* CSS */
 .button-86 {
